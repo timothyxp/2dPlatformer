@@ -1,17 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Character : Unit
 {
     [SerializeField]
     private int lives = 3;
 
+    private bool istabpressed = false;
     public bool double_jump = false;
-
     private float deltatime = 0F;
     private float reload = 2.0F;
     private float deltatime_damage = 0F;
     private float shield = 0.2F;
+    private bool isOpenMenu = false;
 
     public int Lives
     {
@@ -26,9 +28,8 @@ public class Character : Unit
 
     public override void Die()
     {
-        State = CharState.Die;
-        Application.LoadLevel(0);
-        Destroy(gameObject, 1.0F); 
+        menu.Die();
+        SceneManager.LoadScene(0);
     }
 
     [SerializeField]
@@ -49,7 +50,9 @@ public class Character : Unit
     new private Rigidbody2D rigidbody;
     private Animator animator;
     private SpriteRenderer sprite;
- 
+    [SerializeField]
+    public Menu_table menu;
+
     private void Awake()
     {
         livesBar = FindObjectOfType<LivesBar>();
@@ -57,11 +60,21 @@ public class Character : Unit
         animator = GetComponent<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
         bullet = Resources.Load<Bullet>("Bullet");
+        menu =  FindObjectOfType<Menu_table>();
     }
 
     private void FixedUpdate()
     {
         CheckGround();
+    }
+
+    public int GetDifficult()
+    {
+        if (!menu)
+        {
+            menu = FindObjectOfType<Menu_table>();
+        }
+        return menu.GetDifficult();
     }
 
     private void Update()
@@ -71,18 +84,24 @@ public class Character : Unit
         deltatime_damage += Time.deltaTime;
         if (Input.GetButtonDown("Fire1")) Shoot();
         if (Input.GetButton("Horizontal")) Run();
+        if (Input.GetButton("Menu") && !istabpressed) OpenMenu();
+        if (!Input.GetButton("Menu")) istabpressed = false;
         if (isGrounded) double_jump = false;
         if ((isGrounded || double_jump) && Input.GetButtonDown("Jump")) Jump();
+    }
+
+    private void OpenMenu()
+    {
+        istabpressed = true;
+        isOpenMenu = !isOpenMenu;
+        menu.SetAct(isOpenMenu);
     }
 
     private void Run()
     {
         Vector3 direction = transform.right * Input.GetAxis("Horizontal");
-
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
-
         sprite.flipX = direction.x < 0.0F;
-
         if (isGrounded && State != CharState.Die)  State = CharState.Run;
     }
 

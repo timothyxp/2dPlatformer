@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Portal : MonoBehaviour {
     [SerializeField]
@@ -18,15 +20,15 @@ public class Portal : MonoBehaviour {
         {
             if (level1)
             {
-                Application.LoadLevel(2);
+                SceneManager.LoadScene(2);
             }
             if (level2)
             {
-                Application.LoadLevel(3);
+                SceneManager.LoadScene(3);
             }
             if (level3)
             {
-                Application.LoadLevel(0);
+                SceneManager.LoadScene(0);
             }
         }
     }
