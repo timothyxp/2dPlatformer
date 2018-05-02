@@ -11,6 +11,14 @@ public class Menu_table : MonoBehaviour {
     public Settings settings;
     [SerializeField]
     private int dif;
+    [SerializeField]
+    public InterfaceControl Control;
+    Character character;
+    private bool isjump = false;
+    private int move = 0;
+    private bool openmenu = false;
+    [SerializeField]
+    private bool isAndroid = false;
 
     public void Awake()
     {
@@ -19,7 +27,53 @@ public class Menu_table : MonoBehaviour {
             DontDestroyOnLoad(gameObject);
             created = true;
         }
+    }
 
+    public void OnLevelWasLoaded()
+    {
+        character = FindObjectOfType<Character>();
+        if (character && isAndroid)
+        {
+            Control.Activate(true);
+        }
+        else
+        {
+            Control.Activate(false);
+        }
+    }
+
+    public void setJump()
+    {
+        isjump = true;
+    }
+
+    public bool getJump()
+    {
+        bool copy = isjump;
+        isjump = false;
+        return copy;
+    }
+
+    public void setMove(int r)
+    {
+        move = r;
+    }
+
+    public int getMove()
+    {
+        return move;
+    }
+
+    public void setMenu()
+    {
+        openmenu = true;
+    }
+
+    public bool getMenu()
+    {
+        bool copy = openmenu;
+        openmenu = false;
+        return copy;
     }
 
     public void SetDifficult(int d)
@@ -43,11 +97,13 @@ public class Menu_table : MonoBehaviour {
         {
             menu.SetAct(true);
             settings.SetAct(false);
+            Control.SetAct(false);
         }
         else
         {
             menu.SetAct(false);
             settings.SetAct(false);
+            Control.SetAct(true);
         }
     }
 }

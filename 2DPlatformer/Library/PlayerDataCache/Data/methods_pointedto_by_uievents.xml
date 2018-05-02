@@ -1,0 +1,29 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Menu_table">
+			<method name="SetDifficult"/>
+			<method name="setMove"/>
+			<method name="setMove"/>
+			<method name="setMenu"/>
+			<method name="setMove"/>
+			<method name="setMove"/>
+			<method name="setJump"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="PlayPressed"/>
+			<method name="ExitPressed"/>
+		</type>
+		<type fullname="Settings">
+			<method name="AudioVolume"/>
+			<method name="QualityChanged"/>
+			<method name="Resolutions"/>
+			<method name="FullScreenToggle"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

@@ -14,6 +14,19 @@ public class Character : Unit
     private float deltatime_damage = 0F;
     private float shield = 0.2F;
     private bool isOpenMenu = false;
+    [SerializeField]
+    private float speed = 3.0F;
+    [SerializeField]
+    private float jumpForce = 15.0F;
+
+    private bool isGrounded = false;
+
+    private Bullet bullet;
+    new private Rigidbody2D rigidbody;
+    private Animator animator;
+    private SpriteRenderer sprite;
+    [SerializeField]
+    public Menu_table menu;
 
     public int Lives
     {
@@ -28,30 +41,18 @@ public class Character : Unit
 
     public override void Die()
     {
+        Debug.Log("destroy");
         menu.Die();
+        Debug.Log("menu destroy");
         SceneManager.LoadScene(0);
+        Debug.Log("load");
     }
-
-    [SerializeField]
-    private float speed = 3.0F;
-    [SerializeField]
-    private float jumpForce = 15.0F;
-
-    private bool isGrounded = false;
-
-    private Bullet bullet;
 
     private CharState State
     {
         get { return (CharState)animator.GetInteger("State"); }
         set { animator.SetInteger("State", (int)value); }
     }
-
-    new private Rigidbody2D rigidbody;
-    private Animator animator;
-    private SpriteRenderer sprite;
-    [SerializeField]
-    public Menu_table menu;
 
     private void Awake()
     {
@@ -83,11 +84,12 @@ public class Character : Unit
         deltatime += Time.deltaTime;
         deltatime_damage += Time.deltaTime;
         if (Input.GetButtonDown("Fire1")) Shoot();
-        if (Input.GetButton("Horizontal")) Run();
-        if (Input.GetButton("Menu") && !istabpressed) OpenMenu();
-        if (!Input.GetButton("Menu")) istabpressed = false;
+        int move = menu.getMove();
+        if (Input.GetButton("Horizontal") || move != 0) Run(move);
+        if ((Input.GetButton("Menu") || menu.getMenu()) && !istabpressed) OpenMenu();
+        if (!Input.GetButton("Menu") && !menu.getMenu()) istabpressed = false;
         if (isGrounded) double_jump = false;
-        if ((isGrounded || double_jump) && Input.GetButtonDown("Jump")) Jump();
+        if ((isGrounded || double_jump) && (Input.GetButtonDown("Jump") || menu.getJump())) Jump();
     }
 
     private void OpenMenu()
@@ -97,9 +99,9 @@ public class Character : Unit
         menu.SetAct(isOpenMenu);
     }
 
-    private void Run()
+    private void Run(int dir)
     {
-        Vector3 direction = transform.right * Input.GetAxis("Horizontal");
+        Vector3 direction = transform.right * (Input.GetAxis("Horizontal") + dir);
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
         sprite.flipX = direction.x < 0.0F;
         if (isGrounded && State != CharState.Die)  State = CharState.Run;
@@ -132,11 +134,13 @@ public class Character : Unit
 
     public override void ReceiveDamage(int damage)
     {
+        Debug.Log("get damage");
         if (deltatime_damage > shield)  {
             Lives-=damage; 
             deltatime_damage = 0;
         }
         if (Lives <= 0)  {
+            Debug.Log("Die");
             Die();
         }
     }
