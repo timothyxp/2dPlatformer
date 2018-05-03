@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LoadMenuControl : MonoBehaviour {
@@ -11,16 +12,15 @@ public class LoadMenuControl : MonoBehaviour {
     private float timer = 0;
     [SerializeField]
     private int level;
-
-    public void Awake()
-    {
-        StartCoroutine("Wait");
-    }
+    [SerializeField]
+    public Image img;
+    [SerializeField]
+    public Text text;
 
     public void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 3 && !loaded)
+        if (timer > 1 && !loaded)
         {
             StartCoroutine("LoadLevel");
             loaded = true;
@@ -32,18 +32,11 @@ public class LoadMenuControl : MonoBehaviour {
         AsyncOperation async = SceneManager.LoadSceneAsync(level);
         while (!async.isDone) 
         {
-            PercentOfLoad = Mathf.RoundToInt(async.progress*100f);
+            PercentOfLoad = Mathf.RoundToInt((async.progress/0.9f)*100f);
+            img.fillAmount = PercentOfLoad;
+            text.text = PercentOfLoad.ToString()+"%";
             Debug.Log("Progress complete:" + PercentOfLoad.ToString()+"%");
-            GUI.Box(new Rect((Screen.width - 1000) / 2, (Screen.height - 100) / 2, PercentOfLoad * 10, 100), load);
-            yield return new WaitForSeconds(3);
+            yield return true;
         }
     }
-
-    public IEnumerator Wait()
-    {
-        Debug.Log(Time.time);
-        yield return new WaitForSeconds(3);
-        Debug.Log(Time.time);
-    }
-
 }
