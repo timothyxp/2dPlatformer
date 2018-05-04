@@ -7,7 +7,6 @@ public class MainMenu : MonoBehaviour {
     public void PlayPressed()
     {
         gameObject.SetActive(false);
-        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
     
     public void SetAct(bool q)

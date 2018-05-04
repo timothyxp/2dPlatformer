@@ -18,7 +18,9 @@ public class Menu_table : MonoBehaviour {
     private int move = 0;
     private bool openmenu = false;
     [SerializeField]
-    private bool isAndroid = false;
+    public bool isAndroid = false;
+    [SerializeField]
+    LoadMenuControl load;
 
     public void Awake()
     {
@@ -27,13 +29,19 @@ public class Menu_table : MonoBehaviour {
             DontDestroyOnLoad(gameObject);
             created = true;
         }
+        load = FindObjectOfType<LoadMenuControl>();
     }
 
     public void OnLevelWasLoaded()
     {
+        load = FindObjectOfType<LoadMenuControl>();
+        isjump = false;
+        openmenu = false;
+        move = 0;
         character = FindObjectOfType<Character>();
         if (character && isAndroid)
         {
+            Control.SetAct(true);
             Control.Activate(true);
         }
         else
@@ -45,6 +53,12 @@ public class Menu_table : MonoBehaviour {
     public void setJump()
     {
         isjump = true;
+    }
+
+    public void Play()
+    {
+        load.SetLevel(1);
+        load.loadlevel();
     }
 
     public bool getJump()

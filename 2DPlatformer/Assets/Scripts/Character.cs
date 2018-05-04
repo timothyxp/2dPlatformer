@@ -18,6 +18,7 @@ public class Character : Unit
     private float speed = 3.0F;
     [SerializeField]
     private float jumpForce = 15.0F;
+    private bool isandriod;
 
     private bool isGrounded = false;
 
@@ -62,6 +63,7 @@ public class Character : Unit
         sprite = GetComponentInChildren<SpriteRenderer>();
         bullet = Resources.Load<Bullet>("Bullet");
         menu =  FindObjectOfType<Menu_table>();
+        isandriod = menu.isAndroid;
     }
 
     private void FixedUpdate()
@@ -74,6 +76,7 @@ public class Character : Unit
         if (!menu)
         {
             menu = FindObjectOfType<Menu_table>();
+            isandriod = menu.isAndroid;
         }
         return menu.GetDifficult();
     }
@@ -83,7 +86,7 @@ public class Character : Unit
         if (isGrounded && State != CharState.Die)  State = CharState.Idle;
         deltatime += Time.deltaTime;
         deltatime_damage += Time.deltaTime;
-        if (Input.GetButtonDown("Fire1")) Shoot();
+        if (Input.GetButtonDown("Fire1") && !isandriod) Shoot();
         int move = menu.getMove();
         if (Input.GetButton("Horizontal") || move != 0) Run(move);
         if ((Input.GetButton("Menu") || menu.getMenu()) && !istabpressed) OpenMenu();

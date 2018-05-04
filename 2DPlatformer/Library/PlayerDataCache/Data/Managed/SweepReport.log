@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2092
+  Total Type Removals = 2093
     Nested = 149
     Interfaces = 122
     Abstract Classes = 155
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 173
   Total Field Removals = 718
-  Total Method Removals = 11254
+  Total Method Removals = 11264
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9505,7 +9505,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 49
   Total Field Removals = 33
-  Total Method Removals = 2639
+  Total Method Removals = 2641
   References Removed = 0
 ---------------------------------------------------
     AOT.MonoPInvokeCallbackAttribute
@@ -12459,6 +12459,7 @@ Summary:
         get_maximumParticleDeltaTime()
         get_renderedFrameCount()
         get_smoothDeltaTime()
+        get_time()
         get_timeScale()
         get_timeSinceLevelLoad()
         set_captureFramerate(System.Int32)
@@ -12710,6 +12711,8 @@ Summary:
     UnityEngine.VRTextureUsage
     UnityEngine.WaitForFixedUpdate
         .ctor()
+    UnityEngine.WaitForSeconds
+        .ctor(System.Single)
     UnityEngine.WaitUntil
     UnityEngine.WaitWhile
     UnityEngine.WrapMode
@@ -12779,7 +12782,7 @@ Summary:
 Assembly: UnityEngine.IMGUIModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 31
+  Total Type Removals = 32
     Nested = 12
     Interfaces = 1
     Abstract Classes = 1
@@ -12788,7 +12791,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 21
-  Total Method Removals = 740
+  Total Method Removals = 748
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.CursorPositionStylePainterParameters
@@ -12844,6 +12847,7 @@ Summary:
     UnityEngine.EventInterests
     UnityEngine.ExitGUIException
         .ctor()
+    UnityEngine.FocusType
     UnityEngine.GUI
         <scrollTroughSide>k__BackingField
         s_ScrollControlId
@@ -12868,6 +12872,8 @@ Summary:
         BeginWindows(System.Int32,System.Int32)
         Box(UnityEngine.Rect,System.String)
         Box(UnityEngine.Rect,System.String,UnityEngine.GUIStyle)
+        Box(UnityEngine.Rect,UnityEngine.GUIContent)
+        Box(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle)
         Box(UnityEngine.Rect,UnityEngine.Texture)
         Box(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle)
         BringWindowToBack(System.Int32)
@@ -13248,6 +13254,7 @@ Summary:
         BuildStyleCache()
         CleanupRoots()
         FindStyle(System.String)
+        get_box()
         get_button()
         get_customStyles()
         get_error()
@@ -13308,6 +13315,8 @@ Summary:
         Draw(UnityEngine.Rect,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
         Draw(UnityEngine.Rect,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
         Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+        Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32)
+        Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean)
         Draw(UnityEngine.Rect,UnityEngine.Texture,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
         DrawCursor(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Int32)
         DrawWithTextSelection(UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Boolean)
@@ -13349,6 +13358,7 @@ Summary:
         Internal_CalcSizeWithConstraints(System.IntPtr,UnityEngine.GUIContent,UnityEngine.Vector2,UnityEngine.Vector2&)
         INTERNAL_CALL_GetStyleStatePtr(UnityEngine.GUIStyle,System.Int32,System.IntPtr&)
         INTERNAL_CALL_Internal_CalcSizeWithConstraints(System.IntPtr,UnityEngine.GUIContent,UnityEngine.Vector2&,UnityEngine.Vector2&)
+        INTERNAL_CALL_Internal_Draw2(System.IntPtr,UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,System.Boolean)
         INTERNAL_CALL_Internal_DrawCursor(System.IntPtr,UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,UnityEngine.Color&)
         INTERNAL_CALL_Internal_DrawPrefixLabel(System.IntPtr,UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,System.Boolean)
         INTERNAL_CALL_Internal_GetCursorPixelPosition(System.IntPtr,UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,UnityEngine.Vector2&)
@@ -13356,6 +13366,7 @@ Summary:
         INTERNAL_CALL_SetMouseTooltip(System.String,UnityEngine.Rect&)
         Internal_Draw(System.IntPtr,UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
         Internal_Draw(UnityEngine.GUIContent,UnityEngine.Internal_DrawArguments&)
+        Internal_Draw2(System.IntPtr,UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean)
         Internal_DrawCursor(System.IntPtr,UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,UnityEngine.Color)
         Internal_DrawPrefixLabel(System.IntPtr,UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean)
         Internal_DrawWithTextSelection(UnityEngine.GUIContent,UnityEngine.Internal_DrawWithTextSelectionArguments&)
@@ -13433,6 +13444,7 @@ Summary:
         get_textFieldInput()
         GetBuiltinSkin(System.Int32)
         GetChanged()
+        GetControlID(System.Int32,UnityEngine.FocusType)
         GetControlID(System.Int32,UnityEngine.FocusType,UnityEngine.Rect)
         GetControlID(UnityEngine.FocusType)
         GetControlID(UnityEngine.FocusType,UnityEngine.Rect)
@@ -15534,7 +15546,7 @@ Summary:
     UnityEngine.XR.XRStats
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1012
+  Total: 1013
 ---------------------------------------------------
 AOT.MonoPInvokeCallbackAttribute
 JetBrains.Annotations.AssertionMethodAttribute
@@ -15970,6 +15982,7 @@ UnityEngine.FixedJoint
 UnityEngine.FixedJoint2D
 UnityEngine.Flare
 UnityEngine.FlareLayer
+UnityEngine.FocusType
 UnityEngine.FogMode
 UnityEngine.ForceMode
 UnityEngine.FrictionJoint2D

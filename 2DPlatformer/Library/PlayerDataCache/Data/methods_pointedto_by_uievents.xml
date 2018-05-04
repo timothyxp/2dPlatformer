@@ -5,6 +5,7 @@
 			<method name="setMove"/>
 			<method name="setMove"/>
 			<method name="setMenu"/>
+			<method name="Play"/>
 			<method name="setMove"/>
 			<method name="setMove"/>
 			<method name="setJump"/>
@@ -15,6 +16,7 @@
 		</type>
 		<type fullname="Settings">
 			<method name="AudioVolume"/>
+			<method name="SetAct"/>
 			<method name="QualityChanged"/>
 			<method name="Resolutions"/>
 			<method name="FullScreenToggle"/>
@@ -22,7 +24,6 @@
 	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEngine.GameObject">
-			<method name="SetActive"/>
 			<method name="SetActive"/>
 		</type>
 	</assembly>

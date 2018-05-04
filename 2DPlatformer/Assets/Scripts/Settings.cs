@@ -11,17 +11,26 @@ public class Settings : MonoBehaviour {
     Resolution[] rsl;
     List<string> resolutions;
     public Dropdown dropdown;
+    [SerializeField]
+    public Menu_table menu;
+    private bool isAndroid;
+    [SerializeField]
+    Butoon quality;
 
     public void Awake()
     {
-        resolutions = new List<string>();
-        rsl = Screen.resolutions;
-        for (int i = 0; i < rsl.Length; i++) 
+        isAndroid = menu.isAndroid;
+        if (!isAndroid)
         {
-            resolutions.Add(rsl[i].width.ToString() + "x" + rsl[i].height.ToString());
+            resolutions = new List<string>();
+            rsl = Screen.resolutions;
+            for (int i = 0; i < rsl.Length; i++)
+            {
+                resolutions.Add(rsl[i].width.ToString() + "x" + rsl[i].height.ToString());
+            }
+            dropdown.ClearOptions();
+            dropdown.AddOptions(resolutions);
         }
-        dropdown.ClearOptions();
-        dropdown.AddOptions(resolutions);
     }
 
     public void Resolutions(int p)
@@ -38,6 +47,8 @@ public class Settings : MonoBehaviour {
     public void SetAct(bool q)
     {
         gameObject.SetActive(q);
+        if (isAndroid)
+            quality.SetAct(false);
     }
 
     public void AudioVolume(float Slider)

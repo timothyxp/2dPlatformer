@@ -6,30 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour {
     [SerializeField]
-    private bool level1 = false;
+    public int level = 0;
     [SerializeField]
-    private bool level2 = false;
-    [SerializeField]
-    private bool level3 = false;
+    LoadMenuControl load;
+
+    public void Awake()
+    {
+        load = FindObjectOfType<LoadMenuControl>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
         Unit unit = collider.GetComponent<Unit>();
-
-        if(unit && unit is Character)
-        {
-            if (level1)
-            {
-                SceneManager.LoadScene(2);
-            }
-            if (level2)
-            {
-                SceneManager.LoadScene(3);
-            }
-            if (level3)
-            {
-                SceneManager.LoadScene(0);
-            }
-        }
+        load.SetLevel(level);
+        load.loadlevel();
     }
 }

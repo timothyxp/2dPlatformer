@@ -16,14 +16,31 @@ public class LoadMenuControl : MonoBehaviour {
     public Image img;
     [SerializeField]
     public Text text;
+    [SerializeField]
+    Butoon panel;
+    private bool ready;
+
+    public void loadlevel()
+    {
+        panel.SetAct(true);
+        ready = true;
+    }
+
+    public void SetLevel(int lvl)
+    {
+        level = lvl;
+    }
 
     public void Update()
     {
-        timer += Time.deltaTime;
-        if (timer > 1 && !loaded)
+        if (ready)
         {
-            StartCoroutine("LoadLevel");
-            loaded = true;
+            timer += Time.deltaTime;
+            if (timer > 1 && !loaded)
+            {
+                StartCoroutine("LoadLevel");
+                loaded = true;
+            }
         }
     }
 
