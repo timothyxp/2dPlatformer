@@ -21,9 +21,15 @@ public class Menu_table : MonoBehaviour {
     public bool isAndroid = false;
     [SerializeField]
     LoadMenuControl load;
+    [SerializeField]
+    Butoon Levels;
 
     public void Awake()
     {
+        if (!PlayerPrefs.HasKey("level"))
+        {
+            PlayerPrefs.SetInt("level", 1);
+        }
         if (!created)
         {
             DontDestroyOnLoad(gameObject);
@@ -55,10 +61,15 @@ public class Menu_table : MonoBehaviour {
         isjump = true;
     }
 
-    public void Play()
+    public void Play(int LoadLevel)
     {
-        load.SetLevel(1);
-        load.loadlevel();
+        int level = PlayerPrefs.GetInt("level");
+        if (LoadLevel <= level)
+        {
+            Levels.SetAct(false);
+            load.SetLevel(LoadLevel);
+            load.loadlevel();
+        }
     }
 
     public bool getJump()
@@ -112,12 +123,14 @@ public class Menu_table : MonoBehaviour {
             menu.SetAct(true);
             settings.SetAct(false);
             Control.SetAct(false);
+            Levels.SetAct(false);
         }
         else
         {
             menu.SetAct(false);
             settings.SetAct(false);
             Control.SetAct(true);
+            Levels.SetAct(false);
         }
     }
 }

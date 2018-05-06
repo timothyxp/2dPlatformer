@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2093
+  Total Type Removals = 2091
     Nested = 149
     Interfaces = 122
     Abstract Classes = 155
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 173
   Total Field Removals = 718
-  Total Method Removals = 11264
+  Total Method Removals = 11276
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9496,7 +9496,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 399
+  Total Type Removals = 397
     Nested = 9
     Interfaces = 7
     Abstract Classes = 15
@@ -9505,7 +9505,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 49
   Total Field Removals = 33
-  Total Method Removals = 2641
+  Total Method Removals = 2653
   References Removed = 0
 ---------------------------------------------------
     AOT.MonoPInvokeCallbackAttribute
@@ -11547,7 +11547,18 @@ Summary:
         op_Implicit(UnityEngine.Playables.ScriptPlayableOutput)
     UnityEngine.PlayerConnectionInternal
     UnityEngine.PlayerPrefs
-    UnityEngine.PlayerPrefsException
+        .ctor()
+        DeleteAll()
+        DeleteKey(System.String)
+        GetFloat(System.String)
+        GetFloat(System.String,System.Single)
+        GetString(System.String)
+        GetString(System.String,System.String)
+        Save()
+        SetFloat(System.String,System.Single)
+        SetString(System.String,System.String)
+        TrySetFloat(System.String,System.Single)
+        TrySetSetString(System.String,System.String)
     UnityEngine.Pose
     UnityEngine.PreferBinarySerialization
         .ctor()
@@ -15546,7 +15557,7 @@ Summary:
     UnityEngine.XR.XRStats
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1013
+  Total: 1011
 ---------------------------------------------------
 AOT.MonoPInvokeCallbackAttribute
 JetBrains.Annotations.AssertionMethodAttribute
@@ -16276,8 +16287,6 @@ UnityEngine.Playables.PlayableOutputExtensions
 UnityEngine.Playables.PlayState
 UnityEngine.Playables.ScriptPlayable`1
 UnityEngine.PlayerConnectionInternal
-UnityEngine.PlayerPrefs
-UnityEngine.PlayerPrefsException
 UnityEngine.PlayMode
 UnityEngine.PointEffector2D
 UnityEngine.PolygonCollider2D

@@ -17,6 +17,11 @@ public class Portal : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        int r = PlayerPrefs.GetInt("level");
+        if (r < level)
+        {
+            PlayerPrefs.SetInt("level", level);
+        }
         Unit unit = collider.GetComponent<Unit>();
         load.SetLevel(level);
         load.loadlevel();

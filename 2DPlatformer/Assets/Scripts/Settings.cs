@@ -55,6 +55,7 @@ public class Settings : MonoBehaviour {
     {
         am.SetFloat("mastervolume", Slider);
     }
+
     public void QualityChanged(int q)
     {
         QualitySettings.SetQualityLevel(q);
