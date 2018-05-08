@@ -1,0 +1,1016 @@
+[Info][None] Choosen Plattform: 									.									
+
+[Info][None] Start Assembly Obfuscation.
+[Info][None] Lock Assemblies.
+[Info][None] Start 								.								 Obfuscation.
+[Info][TypeAnalyse] <Module> not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][TypeAnalyse] DoNotObfuscateClassAttribute is DoNotObfuscateClassAttribute.
+[Info][TypeAnalyse] DoNotObfuscateMethodBodyAttribute is DoNotObfuscateMethodBodyAttribute.
+[Info][TypeAnalyse] DoNotRenameAttribute is DoNotRenameAttribute.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] set_Parent is not allowed to Obfuscate.
+[Info][MethodAnalyse] get_Parent is not allowed to Obfuscate.
+[Info][MethodAnalyse] set_Direction is not allowed to Obfuscate.
+[Info][MethodAnalyse] set_Color is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][FieldAnalyse] speed is not allowed to Obfuscate.
+[Info][FieldAnalyse] target is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][FieldAnalyse] double_jump is not allowed to Obfuscate.
+[Info][FieldAnalyse] speeds is not allowed to Obfuscate.
+[Info][FieldAnalyse] jumpForces is not allowed to Obfuscate.
+[Info][FieldAnalyse] menu is not allowed to Obfuscate.
+[Info][FieldAnalyse] menu is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] get_Lives is not allowed to Obfuscate.
+[Info][MethodAnalyse] set_Lives is not allowed to Obfuscate.
+[Info][MethodAnalyse] get_State is not allowed to Obfuscate.
+[Info][MethodAnalyse] set_State is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] FixedUpdate is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] FixedUpdate is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][TypeAnalyse] CharState: Type is an Abstract and obfuscation of Abstract is not allowed.
+[Info][FieldAnalyse] Skip value__.
+[Info][FieldAnalyse] value__ is not allowed to Obfuscate.
+[Info][FieldAnalyse] Skip Idle.
+[Info][FieldAnalyse] Skip Run.
+[Info][FieldAnalyse] Skip Jump.
+[Info][TypeAnalyse] SecureInt: Type is an Abstract and obfuscation of Abstract is not allowed.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MethodAnalyse] op_Addition is not allowed to Obfuscate.
+[Info][MethodAnalyse] op_Subtraction is not allowed to Obfuscate.
+[Info][FieldAnalyse] diff is not allowed to Obfuscate.
+[Info][FieldAnalyse] diff is not allowed to Obfuscate.
+[Info][FieldAnalyse] charac is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][FieldAnalyse] Jump is not allowed to Obfuscate.
+[Info][FieldAnalyse] Left is not allowed to Obfuscate.
+[Info][FieldAnalyse] Right is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][FieldAnalyse] load is not allowed to Obfuscate.
+[Info][FieldAnalyse] level is not allowed to Obfuscate.
+[Info][FieldAnalyse] img is not allowed to Obfuscate.
+[Info][FieldAnalyse] img is not allowed to Obfuscate.
+[Info][FieldAnalyse] text is not allowed to Obfuscate.
+[Info][FieldAnalyse] text is not allowed to Obfuscate.
+[Info][FieldAnalyse] panel is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][TypeAnalyse] Skip renaming cause of CompilerGeneratedAttribute in '<LoadLevel>c__Iterator0'.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] MoveNext is not allowed to Obfuscate.
+[Info][MethodAnalyse] System.Collections.Generic.IEnumerator<object>.get_Current is not allowed to Obfuscate.
+[Info][MethodAnalyse] System.Collections.IEnumerator.get_Current is not allowed to Obfuscate.
+[Info][MethodAnalyse] Reset is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][FieldAnalyse] menu is not allowed to Obfuscate.
+[Info][FieldAnalyse] menu is not allowed to Obfuscate.
+[Info][FieldAnalyse] settings is not allowed to Obfuscate.
+[Info][FieldAnalyse] settings is not allowed to Obfuscate.
+[Info][FieldAnalyse] dif is not allowed to Obfuscate.
+[Info][FieldAnalyse] Control is not allowed to Obfuscate.
+[Info][FieldAnalyse] Control is not allowed to Obfuscate.
+[Info][FieldAnalyse] isAndroid is not allowed to Obfuscate.
+[Info][FieldAnalyse] isAndroid is not allowed to Obfuscate.
+[Info][FieldAnalyse] load is not allowed to Obfuscate.
+[Info][FieldAnalyse] Levels is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnLevelWasLoaded is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][FieldAnalyse] speed is not allowed to Obfuscate.
+[Info][FieldAnalyse] lives is not allowed to Obfuscate.
+[Info][FieldAnalyse] damage is not allowed to Obfuscate.
+[Info][FieldAnalyse] Skip <>f__am$cache0.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][MethodAnalyse] Skip <Move>m__0.
+[Info][FieldAnalyse] speed is not allowed to Obfuscate.
+[Info][FieldAnalyse] Skip <>f__am$cache0.
+[Info][FieldAnalyse] Skip <>f__am$cache1.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Skip <Move>m__0.
+[Info][MethodAnalyse] Skip <Move>m__1.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][FieldAnalyse] damage is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][FieldAnalyse] level is not allowed to Obfuscate.
+[Info][FieldAnalyse] level is not allowed to Obfuscate.
+[Info][FieldAnalyse] load is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][FieldAnalyse] isFullScreen is not allowed to Obfuscate.
+[Info][FieldAnalyse] am is not allowed to Obfuscate.
+[Info][FieldAnalyse] dropdown is not allowed to Obfuscate.
+[Info][FieldAnalyse] menu is not allowed to Obfuscate.
+[Info][FieldAnalyse] menu is not allowed to Obfuscate.
+[Info][FieldAnalyse] quality is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][FieldAnalyse] rate is not allowed to Obfuscate.
+[Info][FieldAnalyse] bulletColor is not allowed to Obfuscate.
+[Info][FieldAnalyse] lives is not allowed to Obfuscate.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][FieldAnalyse] speed is not allowed to Obfuscate.
+[Info][FieldAnalyse] lives is not allowed to Obfuscate.
+[Info][FieldAnalyse] damage is not allowed to Obfuscate.
+[Info][FieldAnalyse] Skip <>f__am$cache0.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][MethodAnalyse] Awake is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Awake is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Start is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Start is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] Update is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] Update is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MethodAnalyse] OnTriggerEnter2D is not allowed to Obfuscate.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method, and their Obfuscation is not allowed.
+[Info][MonoBehaviourMethodObfuscation] OnTriggerEnter2D is MonoBehaviour Method and one Unsupported.
+[Info][MethodAnalyse] Skip <Move>m__0.
+[Info][MethodAnalyse] .ctor is not allowed to Obfuscate.
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Menu with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Bullet with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Butoon with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .CameraController with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .CameraMenuController with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Set Base for: .Character with base: .Unit
+[Info][BaseAndInterface] Is in other Assembly. Base for: .CharState with base: System.Enum
+[Info][BaseAndInterface] Is in other Assembly. Base for: .SecureInt with base: System.ValueType
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Heart with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .InterfaceControl with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .LivesBar with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .LoadMenuControl with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .LoadMenuControl/<LoadLevel>c__Iterator0 with base: System.Object
+[Info][BaseAndInterface] Is in other Assembly. Interface for: .LoadMenuControl/<LoadLevel>c__Iterator0 with interface: System.Collections.IEnumerator
+[Info][BaseAndInterface] Is in other Assembly. Interface for: .LoadMenuControl/<LoadLevel>c__Iterator0 with interface: System.IDisposable
+[Info][BaseAndInterface] Is in other Assembly. Interface for: .LoadMenuControl/<LoadLevel>c__Iterator0 with interface: System.Collections.Generic.IEnumerator`1<System.Object>
+[Info][BaseAndInterface] Is in other Assembly. Base for: .LoadMenuControl/<LoadLevel>c__Iterator0 with base: System.Object
+[Info][BaseAndInterface] Is in other Assembly. Interface for: .LoadMenuControl/<LoadLevel>c__Iterator0 with interface: System.Collections.IEnumerator
+[Info][BaseAndInterface] Is in other Assembly. Interface for: .LoadMenuControl/<LoadLevel>c__Iterator0 with interface: System.IDisposable
+[Info][BaseAndInterface] Is in other Assembly. Interface for: .LoadMenuControl/<LoadLevel>c__Iterator0 with interface: System.Collections.Generic.IEnumerator`1<System.Object>
+[Info][BaseAndInterface] Is in other Assembly. Base for: .MainMenu with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Menu_table with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Set Base for: .Monster with base: .Unit
+[Info][BaseAndInterface] Set Base for: .MoveableMonster with base: .Monster
+[Info][BaseAndInterface] Set Base for: .MoveableObstacle with base: .Monster
+[Info][BaseAndInterface] Is in other Assembly. Base for: .NewBehaviourScript with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Obstacle with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Portal with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Power with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Settings with base: UnityEngine.MonoBehaviour
+[Info][BaseAndInterface] Set Base for: .ShootableMonster with base: .Monster
+[Info][BaseAndInterface] Set Base for: .Spirit with base: .Monster
+[Info][BaseAndInterface] Is in other Assembly. Base for: .Unit with base: UnityEngine.MonoBehaviour
+[Warning][MethodObfuscation] While Obfuscate Method 'SecureInt.ToString' the Method 'ToString', in the Virtual Base Hierarchie, is in a not reachable Area? Perhaps forbidde to Obfuscate it? Or belongs it to different Assemblies?
+[Warning][MethodObfuscation] While Obfuscate Method '<LoadLevel>c__Iterator0.MoveNext' the Method 'MoveNext', in the Virtual Base Hierarchie, is in a not reachable Area? Perhaps forbidde to Obfuscate it? Or belongs it to different Assemblies?
+[Warning][MethodObfuscation] While Obfuscate Method '<LoadLevel>c__Iterator0.Dispose' the Method 'Dispose', in the Virtual Base Hierarchie, is in a not reachable Area? Perhaps forbidde to Obfuscate it? Or belongs it to different Assemblies?
+[Warning][MethodObfuscation] While Obfuscate Method '<LoadLevel>c__Iterator0.Reset' the Method 'Reset', in the Virtual Base Hierarchie, is in a not reachable Area? Perhaps forbidde to Obfuscate it? Or belongs it to different Assemblies?
+[Info][TypeObfuscation] Menu: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] Bullet: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'parent' with length 21 and counter 0 to 'AAAAAAAAAAAAAAAAAAAAa'.
+[Info][FieldObfuscation] parent got Obfuscated to AAAAAAAAAAAAAAAAAAAAa
+[Info][FieldObfuscation] Apply Addon Standard with method OnFieldGotObfuscated on parent
+[Info][FieldObfuscation] Apply Addon SkipName with method OnFieldGotObfuscated on parent
+[Info][FieldObfuscation] Apply Addon Generic with method OnFieldGotObfuscated on parent
+[Info][Rename] Obfuscated new Name 'speed' with length 16 and counter 0 to 'AAAAAAAAAAAAAAAa'.
+[Info][FieldObfuscation] speed got Obfuscated to AAAAAAAAAAAAAAAa
+[Info][FieldObfuscation] Apply Addon Standard with method OnFieldGotObfuscated on speed
+[Info][FieldObfuscation] Apply Addon SkipName with method OnFieldGotObfuscated on speed
+[Info][FieldObfuscation] Apply Addon Generic with method OnFieldGotObfuscated on speed
+[Info][Rename] Obfuscated new Name 'direction' with length 21 and counter 1 to 'AAAAAAAAAAAAAAAAAAAAb'.
+[Info][FieldObfuscation] direction got Obfuscated to AAAAAAAAAAAAAAAAAAAAb
+[Info][FieldObfuscation] Apply Addon Standard with method OnFieldGotObfuscated on direction
+[Info][FieldObfuscation] Apply Addon SkipName with method OnFieldGotObfuscated on direction
+[Info][FieldObfuscation] Apply Addon Generic with method OnFieldGotObfuscated on direction
+[Info][Rename] Obfuscated new Name 'sprite' with length 17 and counter 0 to 'AAAAAAAAAAAAAAAAa'.
+[Info][FieldObfuscation] sprite got Obfuscated to AAAAAAAAAAAAAAAAa
+[Info][FieldObfuscation] Apply Addon Standard with method OnFieldGotObfuscated on sprite
+[Info][FieldObfuscation] Apply Addon SkipName with method OnFieldGotObfuscated on sprite
+[Info][FieldObfuscation] Apply Addon Generic with method OnFieldGotObfuscated on sprite
+[Info][TypeObfuscation] Butoon: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] CameraController: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] CameraMenuController: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'isMenu' with length 23 and counter 0 to 'AAAAAAAAAAAAAAAAAAAAAAa'.
+[Info][FieldObfuscation] isMenu got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAa
+[Info][FieldObfuscation] Apply Addon Standard with method OnFieldGotObfuscated on isMenu
+[Info][FieldObfuscation] Apply Addon SkipName with method OnFieldGotObfuscated on isMenu
+[Info][FieldObfuscation] Apply Addon Generic with method OnFieldGotObfuscated on isMenu
+[Info][Rename] Obfuscated new Name 'GetIsMenu' with length 16 and counter 1 to 'AAAAAAAAAAAAAAAb'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on GetIsMenu
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on GetIsMenu
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on GetIsMenu
+[Info][MethodObfuscation] GetIsMenu got Obfuscated to AAAAAAAAAAAAAAAb
+[Info][Rename] Obfuscated new Name 'SetIsMenu' with length 20 and counter 0 to 'AAAAAAAAAAAAAAAAAAAa'.
+[Info][Rename] Obfuscated new Name 'd' with length 18 and counter 0 to 'AAAAAAAAAAAAAAAAAa'.
+[Info][ParameterObfuscation] d got Obfuscated to AAAAAAAAAAAAAAAAAa
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on SetIsMenu
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on SetIsMenu
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on SetIsMenu
+[Info][MethodObfuscation] SetIsMenu got Obfuscated to AAAAAAAAAAAAAAAAAAAa
+[Info][TypeObfuscation] Character: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'Die' with length 23 and counter 1 to 'AAAAAAAAAAAAAAAAAAAAAAb'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Die got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAb
+[Info][Rename] Obfuscated new Name 'GetDifficult' with length 19 and counter 0 to 'AAAAAAAAAAAAAAAAAAa'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on GetDifficult
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on GetDifficult
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on GetDifficult
+[Info][MethodObfuscation] GetDifficult got Obfuscated to AAAAAAAAAAAAAAAAAAa
+[Info][Rename] Obfuscated new Name 'OpenMenu' with length 16 and counter 2 to 'AAAAAAAAAAAAAAAc'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on OpenMenu
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on OpenMenu
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on OpenMenu
+[Info][MethodObfuscation] OpenMenu got Obfuscated to AAAAAAAAAAAAAAAc
+[Info][Rename] Obfuscated new Name 'Run' with length 17 and counter 1 to 'AAAAAAAAAAAAAAAAb'.
+[Info][Rename] Obfuscated new Name 'dir' with length 21 and counter 2 to 'AAAAAAAAAAAAAAAAAAAAc'.
+[Info][ParameterObfuscation] dir got Obfuscated to AAAAAAAAAAAAAAAAAAAAc
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Run
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Run
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Run
+[Info][MethodObfuscation] Run got Obfuscated to AAAAAAAAAAAAAAAAb
+[Info][Rename] Obfuscated new Name 'ReceiveDamage' with length 18 and counter 1 to 'AAAAAAAAAAAAAAAAAb'.
+[Info][Rename] Obfuscated new Name 'damage' with length 22 and counter 0 to 'AAAAAAAAAAAAAAAAAAAAAa'.
+[Info][ParameterObfuscation] damage got Obfuscated to AAAAAAAAAAAAAAAAAAAAAa
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on ReceiveDamage
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on ReceiveDamage
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on ReceiveDamage
+[Info][MethodObfuscation] ReceiveDamage got Obfuscated to AAAAAAAAAAAAAAAAAb
+[Info][Rename] Obfuscated new Name 'CheckGround' with length 17 and counter 2 to 'AAAAAAAAAAAAAAAAc'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on CheckGround
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on CheckGround
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on CheckGround
+[Info][MethodObfuscation] CheckGround got Obfuscated to AAAAAAAAAAAAAAAAc
+[Info][TypeObfuscation] Heart: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] InterfaceControl: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'Activate' with length 21 and counter 3 to 'AAAAAAAAAAAAAAAAAAAAd'.
+[Info][Rename] Obfuscated new Name 'q' with length 18 and counter 2 to 'AAAAAAAAAAAAAAAAAc'.
+[Info][ParameterObfuscation] q got Obfuscated to AAAAAAAAAAAAAAAAAc
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Activate
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Activate
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Activate
+[Info][MethodObfuscation] Activate got Obfuscated to AAAAAAAAAAAAAAAAAAAAd
+[Info][TypeObfuscation] LivesBar: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'hearts' with length 23 and counter 2 to 'AAAAAAAAAAAAAAAAAAAAAAc'.
+[Info][FieldObfuscation] hearts got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAc
+[Info][FieldObfuscation] Apply Addon Standard with method OnFieldGotObfuscated on hearts
+[Info][FieldObfuscation] Apply Addon SkipName with method OnFieldGotObfuscated on hearts
+[Info][FieldObfuscation] Apply Addon Generic with method OnFieldGotObfuscated on hearts
+[Info][Rename] Obfuscated new Name 'character' with length 23 and counter 3 to 'AAAAAAAAAAAAAAAAAAAAAAd'.
+[Info][FieldObfuscation] character got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAd
+[Info][FieldObfuscation] Apply Addon Standard with method OnFieldGotObfuscated on character
+[Info][FieldObfuscation] Apply Addon SkipName with method OnFieldGotObfuscated on character
+[Info][FieldObfuscation] Apply Addon Generic with method OnFieldGotObfuscated on character
+[Info][Rename] Obfuscated new Name 'Refresh' with length 23 and counter 4 to 'AAAAAAAAAAAAAAAAAAAAAAe'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Refresh
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Refresh
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Refresh
+[Info][MethodObfuscation] Refresh got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAe
+[Info][TypeObfuscation] LoadMenuControl: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'loadlevel' with length 22 and counter 1 to 'AAAAAAAAAAAAAAAAAAAAAb'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on loadlevel
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on loadlevel
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on loadlevel
+[Info][MethodObfuscation] loadlevel got Obfuscated to AAAAAAAAAAAAAAAAAAAAAb
+[Info][Rename] Obfuscated new Name 'SetLevel' with length 21 and counter 4 to 'AAAAAAAAAAAAAAAAAAAAe'.
+[Info][Rename] Obfuscated new Name 'lvl' with length 22 and counter 2 to 'AAAAAAAAAAAAAAAAAAAAAc'.
+[Info][ParameterObfuscation] lvl got Obfuscated to AAAAAAAAAAAAAAAAAAAAAc
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on SetLevel
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on SetLevel
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on SetLevel
+[Info][MethodObfuscation] SetLevel got Obfuscated to AAAAAAAAAAAAAAAAAAAAe
+[Info][TypeObfuscation] MainMenu: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] Menu_table: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'getJump' with length 16 and counter 3 to 'AAAAAAAAAAAAAAAd'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on getJump
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on getJump
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on getJump
+[Info][MethodObfuscation] getJump got Obfuscated to AAAAAAAAAAAAAAAd
+[Info][Rename] Obfuscated new Name 'getMove' with length 21 and counter 5 to 'AAAAAAAAAAAAAAAAAAAAf'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on getMove
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on getMove
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on getMove
+[Info][MethodObfuscation] getMove got Obfuscated to AAAAAAAAAAAAAAAAAAAAf
+[Info][Rename] Obfuscated new Name 'getMenu' with length 18 and counter 3 to 'AAAAAAAAAAAAAAAAAd'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on getMenu
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on getMenu
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on getMenu
+[Info][MethodObfuscation] getMenu got Obfuscated to AAAAAAAAAAAAAAAAAd
+[Info][Rename] Obfuscated new Name 'SetDifficult' with length 23 and counter 5 to 'AAAAAAAAAAAAAAAAAAAAAAf'.
+[Info][Rename] Obfuscated new Name 'd' with length 19 and counter 1 to 'AAAAAAAAAAAAAAAAAAb'.
+[Info][ParameterObfuscation] d got Obfuscated to AAAAAAAAAAAAAAAAAAb
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on SetDifficult
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on SetDifficult
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on SetDifficult
+[Info][MethodObfuscation] SetDifficult got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAf
+[Info][Rename] Obfuscated shared Name 'GetDifficult' to 'AAAAAAAAAAAAAAAAAAa'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on GetDifficult
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on GetDifficult
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on GetDifficult
+[Info][MethodObfuscation] GetDifficult got Obfuscated to AAAAAAAAAAAAAAAAAAa
+[Info][Rename] Obfuscated shared Name 'Die' to 'AAAAAAAAAAAAAAAAAAAAAAb'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Die got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAb
+[Info][TypeObfuscation] Monster: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] MoveableMonster: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'Move' with length 18 and counter 4 to 'AAAAAAAAAAAAAAAAAe'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Move got Obfuscated to AAAAAAAAAAAAAAAAAe
+[Info][TypeObfuscation] MoveableObstacle: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated shared Name 'Move' to 'AAAAAAAAAAAAAAAAAe'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Move got Obfuscated to AAAAAAAAAAAAAAAAAe
+[Info][TypeObfuscation] NewBehaviourScript: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] Obstacle: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] Portal: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] Power: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] Settings: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated new Name 'Resolutions' with length 16 and counter 4 to 'AAAAAAAAAAAAAAAe'.
+[Info][Rename] Obfuscated new Name 'p' with length 23 and counter 6 to 'AAAAAAAAAAAAAAAAAAAAAAg'.
+[Info][ParameterObfuscation] p got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAg
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Resolutions
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Resolutions
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Resolutions
+[Info][MethodObfuscation] Resolutions got Obfuscated to AAAAAAAAAAAAAAAe
+[Info][Rename] Obfuscated new Name 'AudioVolume' with length 22 and counter 3 to 'AAAAAAAAAAAAAAAAAAAAAd'.
+[Info][Rename] Obfuscated new Name 'Slider' with length 20 and counter 1 to 'AAAAAAAAAAAAAAAAAAAb'.
+[Info][ParameterObfuscation] Slider got Obfuscated to AAAAAAAAAAAAAAAAAAAb
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on AudioVolume
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on AudioVolume
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on AudioVolume
+[Info][MethodObfuscation] AudioVolume got Obfuscated to AAAAAAAAAAAAAAAAAAAAAd
+[Info][Rename] Obfuscated new Name 'QualityChanged' with length 18 and counter 5 to 'AAAAAAAAAAAAAAAAAf'.
+[Info][Rename] Obfuscated new Name 'q' with length 18 and counter 6 to 'AAAAAAAAAAAAAAAAAg'.
+[Info][ParameterObfuscation] q got Obfuscated to AAAAAAAAAAAAAAAAAg
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on QualityChanged
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on QualityChanged
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on QualityChanged
+[Info][MethodObfuscation] QualityChanged got Obfuscated to AAAAAAAAAAAAAAAAAf
+[Info][TypeObfuscation] ShootableMonster: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][TypeObfuscation] Spirit: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated shared Name 'Move' to 'AAAAAAAAAAAAAAAAAe'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Move
+[Info][MethodObfuscation] Move got Obfuscated to AAAAAAAAAAAAAAAAAe
+[Info][TypeObfuscation] Unit: Type obfuscation is not allowed or Type has DoNotRenameAttribute.
+[Info][Rename] Obfuscated shared Name 'ReceiveDamage' to 'AAAAAAAAAAAAAAAAAb'.
+[Info][Rename] Obfuscated new Name 'damage' with length 23 and counter 7 to 'AAAAAAAAAAAAAAAAAAAAAAh'.
+[Info][ParameterObfuscation] damage got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAh
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on ReceiveDamage
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on ReceiveDamage
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on ReceiveDamage
+[Info][MethodObfuscation] ReceiveDamage got Obfuscated to AAAAAAAAAAAAAAAAAb
+[Info][Rename] Obfuscated shared Name 'Die' to 'AAAAAAAAAAAAAAAAAAAAAAb'.
+[Info][MethodObfuscation] Apply MethodAddon Standard with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Apply MethodAddon SkipName with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Apply MethodAddon Generic with method OnMethodGotObfuscated on Die
+[Info][MethodObfuscation] Die got Obfuscated to AAAAAAAAAAAAAAAAAAAAAAb
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on <Module>
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on <Module>
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on <Module>
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Menu
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Menu
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Menu
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Bullet
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Bullet
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Bullet
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Butoon
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Butoon
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Butoon
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on CameraController
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on CameraController
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on CameraController
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on CameraMenuController
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on CameraMenuController
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on CameraMenuController
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Character
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Character
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Character
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on CharState
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on CharState
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on CharState
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on SecureInt
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on SecureInt
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on SecureInt
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Heart
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Heart
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Heart
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on InterfaceControl
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on InterfaceControl
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on InterfaceControl
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on LivesBar
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on LivesBar
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on LivesBar
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on LoadMenuControl
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on LoadMenuControl
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on LoadMenuControl
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on <LoadLevel>c__Iterator0
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on <LoadLevel>c__Iterator0
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on <LoadLevel>c__Iterator0
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on MainMenu
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on MainMenu
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on MainMenu
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Menu_table
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Menu_table
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Menu_table
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Monster
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Monster
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Monster
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on MoveableMonster
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on MoveableMonster
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on MoveableMonster
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on MoveableObstacle
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on MoveableObstacle
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on MoveableObstacle
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on NewBehaviourScript
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on NewBehaviourScript
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on NewBehaviourScript
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Obstacle
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Obstacle
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Obstacle
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Portal
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Portal
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Portal
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Power
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Power
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Power
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Settings
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Settings
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Settings
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on ShootableMonster
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on ShootableMonster
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on ShootableMonster
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Spirit
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Spirit
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Spirit
+[Info][None] Apply Addon Standard with method OnBeforeMethodBodyObfuscation on Unit
+[Info][None] Apply Addon SkipName with method OnBeforeMethodBodyObfuscation on Unit
+[Info][None] Apply Addon Generic with method OnBeforeMethodBodyObfuscation on Unit
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.set_Parent
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.set_Parent
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.set_Parent
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.get_Parent
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.get_Parent
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.get_Parent
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.set_Direction
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.set_Direction
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.set_Direction
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.set_Color
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.set_Color
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.set_Color
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Bullet.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Bullet.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Bullet.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Butoon..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Butoon..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Butoon..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Butoon.SetAct
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Butoon.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Butoon.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on CameraController..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on CameraController..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on CameraController..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on CameraController.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on CameraController.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on CameraController.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on CameraController.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on CameraController.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on CameraController.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on CameraMenuController..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on CameraMenuController..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on CameraMenuController..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on CameraMenuController.GetIsMenu
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on CameraMenuController.GetIsMenu
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on CameraMenuController.GetIsMenu
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on CameraMenuController.SetIsMenu
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on CameraMenuController.SetIsMenu
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on CameraMenuController.SetIsMenu
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.get_Lives
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.get_Lives
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.get_Lives
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.set_Lives
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.set_Lives
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.set_Lives
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.Die
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.Die
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.Die
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.get_State
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.get_State
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.get_State
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.set_State
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.set_State
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.set_State
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.FixedUpdate
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.FixedUpdate
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.FixedUpdate
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.GetDifficult
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.GetDifficult
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.GetDifficult
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.OpenMenu
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.OpenMenu
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.OpenMenu
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.Run
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.Run
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.Run
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.Jump
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.Jump
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.Jump
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.Shoot
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.Shoot
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.Shoot
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.ReceiveDamage
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.ReceiveDamage
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.ReceiveDamage
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.CheckGround
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.CheckGround
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.CheckGround
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Character.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Character.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Character.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on SecureInt.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on SecureInt.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on SecureInt.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on SecureInt.GetValue
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on SecureInt.GetValue
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on SecureInt.GetValue
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on SecureInt.ToString
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on SecureInt.ToString
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on SecureInt.ToString
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on SecureInt.SetValue
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on SecureInt.SetValue
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on SecureInt.SetValue
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on SecureInt.op_Addition
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on SecureInt.op_Addition
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on SecureInt.op_Addition
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on SecureInt.op_Subtraction
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on SecureInt.op_Subtraction
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on SecureInt.op_Subtraction
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Heart..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Heart..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Heart..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Heart.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Heart.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Heart.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Heart.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Heart.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Heart.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on InterfaceControl..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on InterfaceControl..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on InterfaceControl..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on InterfaceControl.SetAct
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on InterfaceControl.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on InterfaceControl.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on InterfaceControl.Activate
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on InterfaceControl.Activate
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on InterfaceControl.Activate
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LivesBar..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LivesBar..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LivesBar..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LivesBar.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LivesBar.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LivesBar.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LivesBar.Refresh
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LivesBar.Refresh
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LivesBar.Refresh
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LoadMenuControl..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LoadMenuControl..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LoadMenuControl..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LoadMenuControl.loadlevel
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LoadMenuControl.loadlevel
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LoadMenuControl.loadlevel
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LoadMenuControl.SetLevel
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LoadMenuControl.SetLevel
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LoadMenuControl.SetLevel
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LoadMenuControl.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LoadMenuControl.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LoadMenuControl.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on LoadMenuControl.LoadLevel
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on LoadMenuControl.LoadLevel
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on LoadMenuControl.LoadLevel
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.MoveNext
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.MoveNext
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.MoveNext
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.System.Collections.Generic.IEnumerator<object>.get_Current
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.System.Collections.Generic.IEnumerator<object>.get_Current
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.System.Collections.Generic.IEnumerator<object>.get_Current
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.System.Collections.IEnumerator.get_Current
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.System.Collections.IEnumerator.get_Current
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.System.Collections.IEnumerator.get_Current
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.Dispose
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.Dispose
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.Dispose
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.Reset
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.Reset
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on <LoadLevel>c__Iterator0.Reset
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MainMenu..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MainMenu..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MainMenu..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MainMenu.PlayPressed
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MainMenu.PlayPressed
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MainMenu.PlayPressed
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MainMenu.SetAct
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MainMenu.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MainMenu.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MainMenu.ExitPressed
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MainMenu.ExitPressed
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MainMenu.ExitPressed
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.OnLevelWasLoaded
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.OnLevelWasLoaded
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.OnLevelWasLoaded
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.setJump
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.setJump
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.setJump
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.Play
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.Play
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.Play
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.getJump
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.getJump
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.getJump
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.setMove
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.setMove
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.setMove
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.getMove
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.getMove
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.getMove
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.setMenu
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.setMenu
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.setMenu
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.getMenu
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.getMenu
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.getMenu
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.SetDifficult
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.SetDifficult
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.SetDifficult
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.GetDifficult
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.GetDifficult
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.GetDifficult
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.Die
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.Die
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.Die
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Menu_table.SetAct
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Menu_table.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Menu_table.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Monster..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Monster..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Monster..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Monster.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Monster.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Monster.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Monster.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Monster.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Monster.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Monster.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Monster.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Monster.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Monster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Monster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Monster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableMonster..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableMonster..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableMonster..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableMonster.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableMonster.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableMonster.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableMonster.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableMonster.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableMonster.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableMonster.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableMonster.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableMonster.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableMonster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableMonster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableMonster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableMonster.Move
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableMonster.Move
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableMonster.Move
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableMonster.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableMonster.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableMonster.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableObstacle..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableObstacle..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableObstacle..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableObstacle.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableObstacle.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableObstacle.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableObstacle.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableObstacle.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableObstacle.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableObstacle.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableObstacle.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableObstacle.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableObstacle.Move
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableObstacle.Move
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableObstacle.Move
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableObstacle.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableObstacle.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableObstacle.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on MoveableObstacle.<Move>m__1
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on MoveableObstacle.<Move>m__1
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on MoveableObstacle.<Move>m__1
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on NewBehaviourScript..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on NewBehaviourScript..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on NewBehaviourScript..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on NewBehaviourScript.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on NewBehaviourScript.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on NewBehaviourScript.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on NewBehaviourScript.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on NewBehaviourScript.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on NewBehaviourScript.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Obstacle..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Obstacle..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Obstacle..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Obstacle.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Obstacle.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Obstacle.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Portal..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Portal..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Portal..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Portal.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Portal.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Portal.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Portal.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Portal.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Portal.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Power..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Power..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Power..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Power.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Power.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Power.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Settings..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Settings..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Settings..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Settings.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Settings.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Settings.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Settings.Resolutions
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Settings.Resolutions
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Settings.Resolutions
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Settings.FullScreenToggle
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Settings.FullScreenToggle
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Settings.FullScreenToggle
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Settings.SetAct
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Settings.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Settings.SetAct
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Settings.AudioVolume
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Settings.AudioVolume
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Settings.AudioVolume
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Settings.QualityChanged
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Settings.QualityChanged
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Settings.QualityChanged
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on ShootableMonster..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on ShootableMonster..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on ShootableMonster..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on ShootableMonster.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on ShootableMonster.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on ShootableMonster.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on ShootableMonster.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on ShootableMonster.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on ShootableMonster.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on ShootableMonster.Shoot
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on ShootableMonster.Shoot
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on ShootableMonster.Shoot
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on ShootableMonster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on ShootableMonster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on ShootableMonster.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Spirit..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Spirit..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Spirit..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Spirit.Awake
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Spirit.Awake
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Spirit.Awake
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Spirit.Start
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Spirit.Start
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Spirit.Start
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Spirit.Update
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Spirit.Update
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Spirit.Update
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Spirit.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Spirit.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Spirit.OnTriggerEnter2D
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Spirit.Move
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Spirit.Move
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Spirit.Move
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Spirit.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Spirit.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Spirit.<Move>m__0
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Unit..ctor
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Unit..ctor
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Unit..ctor
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Unit.ReceiveDamage
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Unit.ReceiveDamage
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Unit.ReceiveDamage
+[Info][MethodBodyObfuscation] Apply Addon Standard with method OnMethodBodyObfuscate on Unit.Die
+[Info][MethodBodyObfuscation] Apply Addon SkipName with method OnMethodBodyObfuscate on Unit.Die
+[Info][MethodBodyObfuscation] Apply Addon Generic with method OnMethodBodyObfuscate on Unit.Die
+[Info][None] Apply Addon Standard with method OnPostObfuscation on <Module>
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on <Module>
+[Info][None] Apply Addon Generic with method OnPostObfuscation on <Module>
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Menu
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Menu
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Menu
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Bullet
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Bullet
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Bullet
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Butoon
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Butoon
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Butoon
+[Info][None] Apply Addon Standard with method OnPostObfuscation on CameraController
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on CameraController
+[Info][None] Apply Addon Generic with method OnPostObfuscation on CameraController
+[Info][None] Apply Addon Standard with method OnPostObfuscation on CameraMenuController
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on CameraMenuController
+[Info][None] Apply Addon Generic with method OnPostObfuscation on CameraMenuController
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Character
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Character
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Character
+[Info][None] Apply Addon Standard with method OnPostObfuscation on CharState
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on CharState
+[Info][None] Apply Addon Generic with method OnPostObfuscation on CharState
+[Info][None] Apply Addon Standard with method OnPostObfuscation on SecureInt
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on SecureInt
+[Info][None] Apply Addon Generic with method OnPostObfuscation on SecureInt
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Heart
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Heart
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Heart
+[Info][None] Apply Addon Standard with method OnPostObfuscation on InterfaceControl
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on InterfaceControl
+[Info][None] Apply Addon Generic with method OnPostObfuscation on InterfaceControl
+[Info][None] Apply Addon Standard with method OnPostObfuscation on LivesBar
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on LivesBar
+[Info][None] Apply Addon Generic with method OnPostObfuscation on LivesBar
+[Info][None] Apply Addon Standard with method OnPostObfuscation on LoadMenuControl
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on LoadMenuControl
+[Info][None] Apply Addon Generic with method OnPostObfuscation on LoadMenuControl
+[Info][None] Apply Addon Standard with method OnPostObfuscation on <LoadLevel>c__Iterator0
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on <LoadLevel>c__Iterator0
+[Info][None] Apply Addon Generic with method OnPostObfuscation on <LoadLevel>c__Iterator0
+[Info][None] Apply Addon Standard with method OnPostObfuscation on MainMenu
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on MainMenu
+[Info][None] Apply Addon Generic with method OnPostObfuscation on MainMenu
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Menu_table
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Menu_table
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Menu_table
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Monster
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Monster
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Monster
+[Info][None] Apply Addon Standard with method OnPostObfuscation on MoveableMonster
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on MoveableMonster
+[Info][None] Apply Addon Generic with method OnPostObfuscation on MoveableMonster
+[Info][None] Apply Addon Standard with method OnPostObfuscation on MoveableObstacle
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on MoveableObstacle
+[Info][None] Apply Addon Generic with method OnPostObfuscation on MoveableObstacle
+[Info][None] Apply Addon Standard with method OnPostObfuscation on NewBehaviourScript
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on NewBehaviourScript
+[Info][None] Apply Addon Generic with method OnPostObfuscation on NewBehaviourScript
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Obstacle
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Obstacle
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Obstacle
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Portal
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Portal
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Portal
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Power
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Power
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Power
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Settings
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Settings
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Settings
+[Info][None] Apply Addon Standard with method OnPostObfuscation on ShootableMonster
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on ShootableMonster
+[Info][None] Apply Addon Generic with method OnPostObfuscation on ShootableMonster
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Spirit
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Spirit
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Spirit
+[Info][None] Apply Addon Standard with method OnPostObfuscation on Unit
+[Info][None] Apply Addon SkipName with method OnPostObfuscation on Unit
+[Info][None] Apply Addon Generic with method OnPostObfuscation on Unit
+[Info][None] Finished 								.								 Obfuscation.
+[Info][None] Unlock Assemblies.
+[Info][None] Obfuscation finished.

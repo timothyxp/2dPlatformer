@@ -4,8 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Character : Unit
 {
-    [SerializeField]
-    private int lives = 3;
+    private SecureInt lives = new SecureInt();
 
     private bool istabpressed = false;
     public bool double_jump = false;
@@ -14,9 +13,12 @@ public class Character : Unit
     private float deltatime_damage = 0F;
     private float shield = 0.2F;
     private bool isOpenMenu = false;
-    [SerializeField]
     private float speed = 3.0F;
     [SerializeField]
+    float[] speeds;
+    [SerializeField]
+    float[] jumpForces;
+
     private float jumpForce = 15.0F;
     private bool isandriod;
 
@@ -28,13 +30,18 @@ public class Character : Unit
     private SpriteRenderer sprite;
     [SerializeField]
     public Menu_table menu;
+    LoadMenuControl load;
 
     public int Lives
     {
-        get { return lives; }
+        get { return lives.GetValue(); }
         set
         {
-           if (value <= 3) lives = value;
+           if (value <= 3)
+            {
+                lives = new SecureInt();
+                lives.SetValue(value);
+            }
             livesBar.Refresh();
         }
     }
@@ -42,11 +49,9 @@ public class Character : Unit
 
     public override void Die()
     {
-        Debug.Log("destroy");
         menu.Die();
-        Debug.Log("menu destroy");
-        SceneManager.LoadScene(0);
-        Debug.Log("load");
+        load.SetLevel(0);
+        load.loadlevel();
     }
 
     private CharState State
@@ -57,6 +62,8 @@ public class Character : Unit
 
     private void Awake()
     {
+        lives.SetValue(3);
+        load = FindObjectOfType<LoadMenuControl>();
         livesBar = FindObjectOfType<LivesBar>();
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -64,6 +71,8 @@ public class Character : Unit
         bullet = Resources.Load<Bullet>("Bullet");
         menu =  FindObjectOfType<Menu_table>();
         isandriod = menu.isAndroid;
+        speed = speeds[menu.GetDifficult()];
+        jumpForce = jumpForces[menu.GetDifficult()];
     }
 
     private void FixedUpdate()
@@ -83,7 +92,7 @@ public class Character : Unit
 
     private void Update()
     {
-        if (isGrounded && State != CharState.Die)  State = CharState.Idle;
+        if (isGrounded)  State = CharState.Idle;
         deltatime += Time.deltaTime;
         deltatime_damage += Time.deltaTime;
         if (Input.GetButtonDown("Fire1") && !isandriod) Shoot();
@@ -107,7 +116,7 @@ public class Character : Unit
         Vector3 direction = transform.right * (Input.GetAxis("Horizontal") + dir);
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
         sprite.flipX = direction.x < 0.0F;
-        if (isGrounded && State != CharState.Die)  State = CharState.Run;
+        if (isGrounded)  State = CharState.Run;
     }
 
     private void Jump()
@@ -137,13 +146,11 @@ public class Character : Unit
 
     public override void ReceiveDamage(int damage)
     {
-        Debug.Log("get damage");
         if (deltatime_damage > shield)  {
-            Lives-=damage; 
+            Lives= Lives - damage;
             deltatime_damage = 0;
         }
         if (Lives <= 0)  {
-            Debug.Log("Die");
             Die();
         }
     }
@@ -151,10 +158,18 @@ public class Character : Unit
     private void CheckGround()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.3F);
+        int count = 0;
+        for(int i = 0; i < colliders.Length; i++)
+        {
+            if (!colliders[i].isTrigger)
+            {
+                count++;
+            }
+        }
 
-        isGrounded = colliders.Length > 1;
+        isGrounded = count > 1;
           
-        if (!isGrounded && State != CharState.Die) State = CharState.Jump;
+        if (!isGrounded) State = CharState.Jump;
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -172,6 +187,40 @@ public enum CharState
 {
     Idle,
     Run,
-    Jump,
-    Die
+    Jump
+}
+
+public struct SecureInt
+{
+    private int key;
+    private int val;
+    public void Start()
+    {
+        key = Random.Range(-1000, 1000);
+        val = 0;
+    }
+    public int GetValue()
+    {
+        return val - key;
+    }
+    public override string ToString()
+    {
+        return GetValue().ToString();
+    }
+    public void SetValue(int value)
+    {
+        val = value + key;
+    }
+    public static SecureInt operator +(SecureInt d1,SecureInt d2)
+    {
+        SecureInt res = new SecureInt();
+        res.SetValue(d1.GetValue() + d2.GetValue());
+        return res;
+    }
+    public static SecureInt operator -(SecureInt d1,SecureInt d2)
+    {
+        SecureInt res = new SecureInt();
+        res.SetValue(d1.GetValue() - d2.GetValue());
+        return res;
+    }
 }

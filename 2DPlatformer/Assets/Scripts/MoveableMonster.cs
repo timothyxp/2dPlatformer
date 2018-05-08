@@ -38,7 +38,7 @@ public class MoveableMonster : Monster
         if (lives == 0) Die();
         if (unit && unit is Character)
         {
-            if (Mathf.Abs(unit.transform.position.x - transform.position.x) < 0.2F) Die();
+            if (Mathf.Abs(unit.transform.position.x - transform.position.x) < 0.5F) Die();
             else unit.ReceiveDamage(damage);
         }
     }

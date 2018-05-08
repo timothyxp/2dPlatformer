@@ -10,10 +10,6 @@ public class Heart : MonoBehaviour
 
     public void Awake()
     {
-        if (!charac)
-        {
-            Debug.Log("dont find character");
-        }
         int NowDifficult = charac.GetDifficult();
         if(NowDifficult <= diff)
         {

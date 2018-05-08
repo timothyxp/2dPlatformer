@@ -36,7 +36,7 @@ public class Spirit : Monster
         Unit unit = collider.GetComponent<Unit>();
         if (unit && unit is Character)
         {
-            if (!(Mathf.Abs(unit.transform.position.x - transform.position.x) < 0.3F)) unit.ReceiveDamage(damage) ; 
+            unit.ReceiveDamage(damage); 
         }
     }
 

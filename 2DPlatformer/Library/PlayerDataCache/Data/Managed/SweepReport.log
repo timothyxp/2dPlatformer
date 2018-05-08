@@ -3,7 +3,7 @@ All Assemblies
 ---------------------------------------------------
 Summary:
   Total Type Removals = 2091
-    Nested = 149
+    Nested = 150
     Interfaces = 122
     Abstract Classes = 155
     Generic Types = 86
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 173
   Total Field Removals = 718
-  Total Method Removals = 11276
+  Total Method Removals = 11304
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9497,7 +9497,7 @@ Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
   Total Type Removals = 397
-    Nested = 9
+    Nested = 10
     Interfaces = 7
     Abstract Classes = 15
     Generic Types = 5
@@ -9505,7 +9505,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 49
   Total Field Removals = 33
-  Total Method Removals = 2653
+  Total Method Removals = 2682
   References Removed = 0
 ---------------------------------------------------
     AOT.MonoPInvokeCallbackAttribute
@@ -11707,6 +11707,34 @@ Summary:
         ToEulerAngles(UnityEngine.Quaternion)
         ToString(System.String)
     UnityEngine.Random
+        .ctor()
+        ColorHSV()
+        ColorHSV(System.Single,System.Single)
+        ColorHSV(System.Single,System.Single,System.Single,System.Single)
+        ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+        ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+        get_insideUnitCircle()
+        get_insideUnitSphere()
+        get_onUnitSphere()
+        get_rotation()
+        get_rotationUniform()
+        get_seed()
+        get_state()
+        get_value()
+        GetRandomUnitCircle(UnityEngine.Vector2&)
+        InitState(System.Int32)
+        INTERNAL_get_insideUnitSphere(UnityEngine.Vector3&)
+        INTERNAL_get_onUnitSphere(UnityEngine.Vector3&)
+        INTERNAL_get_rotation(UnityEngine.Quaternion&)
+        INTERNAL_get_rotationUniform(UnityEngine.Quaternion&)
+        INTERNAL_get_state(UnityEngine.Random/State&)
+        INTERNAL_set_state(UnityEngine.Random/State&)
+        RandomRange(System.Int32,System.Int32)
+        RandomRange(System.Single,System.Single)
+        Range(System.Single,System.Single)
+        set_seed(System.Int32)
+        set_state(UnityEngine.Random/State)
+    UnityEngine.Random/State
     UnityEngine.RangeInt
         .ctor(System.Int32,System.Int32)
     UnityEngine.Ray
@@ -12047,6 +12075,8 @@ Summary:
         INTERNAL_CALL_SetActiveScene(UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_UnloadSceneAsyncInternal(UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_UnloadSceneInternal(UnityEngine.SceneManagement.Scene&)
+        LoadScene(System.Int32)
+        LoadScene(System.Int32,UnityEngine.SceneManagement.LoadSceneMode)
         LoadScene(System.String)
         LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneMode)
         LoadSceneAsync(System.String)
@@ -13677,7 +13707,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 4
-  Total Method Removals = 525
+  Total Method Removals = 524
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.AnchoredJoint2D
@@ -13703,7 +13733,6 @@ Summary:
         get_density()
         get_errorState()
         get_friction()
-        get_isTrigger()
         get_offset()
         get_shapeCount()
         get_sharedMaterial()
@@ -15557,7 +15586,7 @@ Summary:
     UnityEngine.XR.XRStats
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1011
+  Total: 1010
 ---------------------------------------------------
 AOT.MonoPInvokeCallbackAttribute
 JetBrains.Annotations.AssertionMethodAttribute
@@ -16307,7 +16336,6 @@ UnityEngine.Profiling.Sampler
 UnityEngine.Projector
 UnityEngine.QualityLevel
 UnityEngine.QueueMode
-UnityEngine.Random
 UnityEngine.Random/State
 UnityEngine.Ray2D
 UnityEngine.RectInt

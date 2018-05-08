@@ -52,8 +52,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\GSpreadSheets\Editor\GSpreadSheetsToJson.cs" />
+     <Compile Include="Assets\OPS\Obfuscator.Free\Editor\BuildPostProcessor.cs" />
+     <Compile Include="Assets\OPS\Obfuscator.Free\Editor\Gui\GuiSettings.cs" />
+     <Compile Include="Assets\OPS\Obfuscator.Free\Editor\Gui\SettingsWindow.cs" />
+     <None Include="Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt" />
      <None Include="Assets\Resources\JsonData\Лист1.txt" />
      <None Include="Assets\GSpreadSheets\Editor\LICENSE-2.0.txt" />
+     <None Include="Assets\OPS\Obfuscator.Free\Version_History.txt" />
+     <None Include="Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -146,6 +152,15 @@
  </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>C:/Users/Тимофей/Downloads/2DPlatformer/White-Nigger/2DPlatformer/Assets/GSpreadSheets/Editor/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="OPS.Mono.Cecil">
+ <HintPath>C:/Users/Тимофей/Downloads/2DPlatformer/White-Nigger/2DPlatformer/Assets/OPS/Editor/Plugins/Mono.Cecil/OPS.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="OPS.Mono.Cecil.Rocks">
+ <HintPath>C:/Users/Тимофей/Downloads/2DPlatformer/White-Nigger/2DPlatformer/Assets/OPS/Editor/Plugins/Mono.Cecil/OPS.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="ObfuscatorFree">
+ <HintPath>C:/Users/Тимофей/Downloads/2DPlatformer/White-Nigger/2DPlatformer/Assets/OPS/Obfuscator.Free/Editor/Plugins/ObfuscatorFree.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Тимофей/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
